@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/compiler/obj/compiler",
-            "args": ["${workspaceFolder}/compiler/testcode/testcase.sy", "-S", "-o" ,"${workspaceFolder}/compiler/asm/testcase.s", "-debug", "-O1"],
+            "args": ["${workspaceFolder}/compiler/testcode/testcase.sy"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/compiler",
             "environment": [],

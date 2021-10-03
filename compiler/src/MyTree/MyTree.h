@@ -100,13 +100,6 @@ public:
      */
     void newChild(MyTree * node);
 
-    /**
-     * @brief 返回表示一棵树的字符串
-     * 
-     * @return string 
-     */
-    string treeToString();
-
 
 
 };

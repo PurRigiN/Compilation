@@ -112,23 +112,3 @@ int MyTree::getchild_num()
 {
     return child_num;
 }
-
-string MyTree::treeToString()
-{
-    
-    string treeStr="[";
-    treeStr+=this->token.str;
-    if(this->child_num!=0)
-    {
-        MyTree * temp=this->getLeftMostChild();
-        for(int i=0;i<this->child_num;i++)
-        {
-            treeStr+=temp->treeToString();
-            treeStr+=" ";
-            temp=temp->getRightSibling();
-        }
-    }
-    treeStr+="]";
-    return treeStr;
-    
-}
